@@ -46,12 +46,10 @@ header {
 header > h1 {
     color: white ;
     font-family: var(--fonte-destaque);
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    font-size: 3em;
     font-weight: normal;
     padding-top: 40px;
-    font-size: 3em;
+    margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.265);
 }
 
@@ -63,7 +61,7 @@ header > p {
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
-    margin-bottom: 30px;
+    padding-bottom: 50px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.265);
 }
 
